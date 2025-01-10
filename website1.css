@@ -1,0 +1,155 @@
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Cinzel:wght@400..900&display=swap');
+        
+        *{margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            }
+
+            body{width: 100vw;
+            height: 100vh;
+            }
+
+            image{ display: block;
+            }
+
+            .watermark{width: 100%;
+                height: 100%;
+            z-index: 0;}
+
+            .watermark{ display: flex;
+            justify-content: center;
+            align-items: center;}
+
+            .watermark img{ width: 75vw;
+            height: auto;
+            margin-top: 230px;
+            opacity: 0.2;
+            }
+
+            .main-container{position: absolute;
+                top: 0px;
+                width: 100vw;
+            height: 80px;
+            margin-top: 8px;
+            z-index: 1;}
+
+            .main-container{ display: flex;
+                flex-direction: row;
+            justify-content: space-around;}
+
+            .box-1{ width: auto;
+            height:auto;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            margin-bottom: 15px;
+            row-gap: 6px;
+            justify-content: space-around;
+            }
+
+            .box-1{ font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+            letter-spacing: 2px;
+            font-weight: 500;
+            text-shadow: 2px 2px 3px rgba(119, 119, 119, 1);
+            }
+            .box-1 figure{ margin-top: 10px;}
+
+            .mc-1{ width: 400px;
+            height: auto;
+            margin-top: 11px;
+            }
+
+            .mc-1 nav{ width: auto;
+            height: auto;
+            }
+
+            .feature{ width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;}
+
+            .feature li{ list-style-type: none;}
+
+            .feature li a { text-decoration: none;
+            color: rgb(79, 79, 79);
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 3px 3px 3px rgba(119, 119, 119, 1);
+            font-size: 20px;
+            }
+            .mc-2{width: 280px;
+                height: auto;
+                margin-top: 5px; }
+
+                .mc-2-1{  width: auto;
+                height: auto;}
+
+                    .login{ width: auto;
+                        height: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                list-style-type: none;}
+
+                .login{text-decoration: none;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px; }
+
+                    .login :nth-child(2){ background: rgb(250, 111, 46);
+                        border-radius: 5px 20px 5px;
+                        color: white;
+                    padding: 7px 12px;
+                    box-shadow: 10px 5px 5px rgb(191, 167, 167);}
+
+
+        .make {position: absolute;
+            top: 150px;
+            left: 100px;
+            margin-top: 20px;
+        z-index: 0;}
+            
+            .make{ width: 500px;
+            height:300px;}
+
+            .make{ font-family:'Archivo+Black', sans-serif;
+                word-spacing: 5px;
+            font-weight: 900; 
+            text-transform: uppercase;
+        font-size: 65px;
+        line-height: 1;}
+
+        .connect{ position: absolute;
+        top:330px;
+        left: 100px;
+        z-index: 1;}
+        .connect{width: 500px;
+            height:200px;}
+            .connect{ font-size: 16px;
+            line-height: 25px;
+        padding-left: 5px;}
+
+            .join{ position: absolute;
+            top:400px;
+        left: 140px;
+        z-index: 2;}
+                .join{ width:100px;
+                height: 80px;
+                display: flex;
+            justify-content: center;
+        align-items: center;}
+        .join{ background: rgb(249, 125, 146);
+            height: 50px;
+            color: white;
+            box-shadow: 10px 5px 5px rgb(191, 167, 167);
+        }
+
+       .girl{ position: absolute;
+    top: 90px;
+left: 580px;}
+
+            
+                
